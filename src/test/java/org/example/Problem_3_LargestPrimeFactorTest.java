@@ -22,4 +22,10 @@ public class Problem_3_LargestPrimeFactorTest {
 
     System.out.println((double)(number / divider));
   }
+
+    static class Problem_4_LargestPalindromeProductTest {
+
+      @Test
+      void getLargestPalindromicNumber() {}
+    }
 }
