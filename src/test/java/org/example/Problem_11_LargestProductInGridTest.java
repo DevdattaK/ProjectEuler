@@ -74,4 +74,11 @@ public class Problem_11_LargestProductInGridTest {
 
     assertEquals(70600674, result);
   }
+
+  @Test
+  public void whenGivenAGridAndNumberOfElementsToFindMaxProduct_thenGetMaxProductAcrossAllDimensionsUsingSimplifiedVersion() {
+    long result = obj.getLargestProductOfElementsOfGivenGrid(4);
+
+    assertEquals(70600674, result);
+  }
 }

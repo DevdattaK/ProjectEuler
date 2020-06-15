@@ -335,5 +335,4 @@ public class Problem_11_LargestProductInGrid {
     return maxProd;
   }
 
-
 }
